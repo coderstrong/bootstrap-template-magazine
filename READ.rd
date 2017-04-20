@@ -1,0 +1,1 @@
+http://marstheme.com/theme/gazeta/homepage-v2/

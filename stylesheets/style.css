@@ -1,0 +1,92 @@
+h2 {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out; }
+
+a:hover {
+  text-decoration: none; }
+
+.rel {
+  position: relative; }
+
+.abs {
+  position: absolute; }
+
+.header {
+  margin: 50px 0 30px 0;
+  background: #fff;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+  display: table;
+  width: 100%; }
+  .header .logo {
+    height: 110px;
+    line-height: 127px;
+    text-align: center; }
+    .header .logo .site-title {
+      font-family: 'Josefin Sans', 'Times New Roman', serif;
+      text-transform: uppercase;
+      font-size: 60px;
+      font-weight: bold;
+      color: #000;
+      text-shadow: 2px 3px rgba(0, 0, 0, 0.1);
+      margin-bottom: 0;
+      line-height: 1.33 !important;
+      word-wrap: break-word;
+      overflow: hidden;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; }
+
+.big-banner {
+  background: #fff;
+  padding: 20px;
+  border-bottom: 3px solid #f4f4f4;
+  border-top: 1px solid #DDD; }
+
+.featured-big .p-meta {
+  top: 30px;
+  left: 30px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  color: #fff; }
+  .featured-big .p-meta i {
+    margin-right: 5px;
+    font-weight: normal;
+    font-size: 17px; }
+.featured-big .p-info {
+  bottom: 30px;
+  left: 30px;
+  color: #fff;
+  z-index: 777;
+  width: 100%;
+  padding-right: 30px; }
+  .featured-big .p-info h3 {
+    margin: 5px 0 15px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px; }
+    .featured-big .p-info h3 a {
+      color: #fff; }
+  .featured-big .p-info .rmore {
+    color: #fff;
+    font-family: Playfair Display;
+    text-align: right;
+    font-size: 12px;
+    display: table;
+    float: right;
+    font-style: italic;
+    padding-right: 30px; }
+    .featured-big .p-info .rmore i {
+      margin-left: 10px; }
+    .featured-big .p-info .rmore:hover {
+      color: #e00000; }
+  .featured-big .p-info .p-category {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; }
+    .featured-big .p-info .p-category * {
+      color: #ff9292; }
+
+/*# sourceMappingURL=style.css.map */
