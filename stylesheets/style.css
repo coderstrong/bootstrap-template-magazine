@@ -280,6 +280,26 @@ a.read-more {
   padding: 3px 15px;
   color: #fff; }
 
+.widget-m {
+  font-size: 13px; }
+  .widget-m a {
+    color: #333; }
+    .widget-m a:hover {
+      color: #e00000; }
+  .widget-m .news-tips .top-item h5 {
+    font-weight: bold;
+    line-height: 18px;
+    color: #000; }
+  .widget-m .news-tips ul {
+    border-top: 1px dashed #999;
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+    .widget-m .news-tips ul li {
+      padding: 5px 0px;
+      line-height: 17px;
+      border-bottom: 1px dashed #999; }
+
 @media only screen and (max-width: 995px) {
   .c-description {
     padding-top: 20px; } }
