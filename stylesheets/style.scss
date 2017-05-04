@@ -65,6 +65,23 @@ $c999 : #999999;
 	}
 }
 
+#menu{
+	margin: 0px;
+	transition: top 0.2s ease-in-out;
+    width: 100%;
+	z-index: 999;
+	position: fixed;
+}
+
+.nav-down{
+	top: 0;   
+}
+
+.nav-up {
+    top: -52px;
+}
+
+
 //tag
 
 body{
@@ -281,8 +298,8 @@ a.read-more{
 .big-banner {
 	background: #fff;
 	padding: 20px;
-	border-bottom: 3px solid #f4f4f4;
-	border-top: 1px solid #DDD;
+	// border-bottom: 3px solid #f4f4f4;
+	// border-top: 1px solid #DDD;
 }
 
 .featured-big{
@@ -547,7 +564,12 @@ aside{
 
 
 
-
+@media (min-width: 768px)
+{
+	.navbar-header {
+    	display: none;
+	}
+}
 
 // responsive
 @media only screen and (max-width: 995px)
