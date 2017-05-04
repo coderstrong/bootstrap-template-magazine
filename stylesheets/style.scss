@@ -3,7 +3,7 @@
 
 // variable 
 
-$height_menu : 50px;
+$height_menu : 68px;
 $c333 : #333333;
 $c777 : #777777;
 $ce00 : #e00000;
@@ -68,7 +68,7 @@ $c999 : #999999;
 #menu{
 	margin: 0px;
 	transition: top 0.2s ease-in-out;
-    width: 100%;
+	width: 100%;
 	z-index: 999;
 	position: fixed;
 }
@@ -78,7 +78,7 @@ $c999 : #999999;
 }
 
 .nav-up {
-    top: -52px;
+	top: -$height_menu;
 }
 
 
@@ -624,7 +624,13 @@ aside{
 @media (min-width: 768px)
 {
 	.navbar-header {
-    	display: none;
+		display: none;
+	}
+
+	.navbar-nav>li>a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		line-height: 36px;
 	}
 }
 
