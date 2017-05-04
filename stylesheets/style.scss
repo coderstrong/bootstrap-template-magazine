@@ -237,7 +237,64 @@ a.read-more{
 
 
 
+// menu
 
+.navbar-header{
+	text-align: center;
+	i{
+		display: block;
+		color: #fff;
+	}
+
+	a{
+		color: #fff;
+	}
+
+	.mo-menu{
+		.active *{
+			color: #000;
+		}
+		i{
+			margin: 13px 0 8px;
+			font-size: 17px;
+			color:#888;
+		}
+		a{
+			font-size: 14px;
+		}
+
+		div{
+			&:hover{
+				color: #000;
+			}
+		}
+
+	}
+
+	.navbar-toggle{
+		margin: 0px;
+		border: none;
+		border-radius: none;
+		
+		a{
+			margin-top: 10px;
+			display: block;
+		}
+		.icon-bar{
+			margin: 4px auto;
+		}
+
+		&:hover, &:focus{
+			background-color: $c333;
+			.icon-bar{
+				background-color: #000;
+			}
+			a{
+				color: #000;
+			}
+		}
+	}
+}
 
 
 
