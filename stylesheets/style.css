@@ -130,6 +130,39 @@ a.read-more {
   a.read-more:hover {
     background: #999999; }
 
+.navbar-header {
+  text-align: center; }
+  .navbar-header i {
+    display: block;
+    color: #fff; }
+  .navbar-header a {
+    color: #fff; }
+  .navbar-header .mo-menu .active * {
+    color: #000; }
+  .navbar-header .mo-menu i {
+    margin: 13px 0 8px;
+    font-size: 17px;
+    color: #888; }
+  .navbar-header .mo-menu a {
+    font-size: 14px; }
+  .navbar-header .mo-menu div:hover {
+    color: #000; }
+  .navbar-header .navbar-toggle {
+    margin: 0px;
+    border: none;
+    border-radius: none; }
+    .navbar-header .navbar-toggle a {
+      margin-top: 10px;
+      display: block; }
+    .navbar-header .navbar-toggle .icon-bar {
+      margin: 4px auto; }
+    .navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
+      background-color: #333333; }
+      .navbar-header .navbar-toggle:hover .icon-bar, .navbar-header .navbar-toggle:focus .icon-bar {
+        background-color: #000; }
+      .navbar-header .navbar-toggle:hover a, .navbar-header .navbar-toggle:focus a {
+        color: #000; }
+
 .rel {
   position: relative; }
 
