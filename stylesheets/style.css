@@ -35,7 +35,9 @@
   transition: top 0.2s ease-in-out;
   width: 100%;
   z-index: 999;
-  position: fixed; }
+  position: fixed;
+  border: none;
+  border-radius: unset; }
 
 .nav-down {
   top: 0; }
@@ -182,18 +184,18 @@ a.read-more {
 .abs {
   position: absolute; }
 
-.header {
+.body-header {
   margin: 68px 0 30px 0;
   background: #fff;
   border-bottom: 1px solid #dddddd;
   position: relative;
   display: table;
   width: 100%; }
-  .header .logo {
+  .body-header .logo {
     height: 110px;
     line-height: 127px;
     text-align: center; }
-    .header .logo .site-title {
+    .body-header .logo .site-title {
       font-family: "Berkshire Swash", Arial, "Helvetica Neue", Helvetica, sans-serif;
       text-transform: uppercase;
       font-size: 3.5em;
@@ -206,11 +208,11 @@ a.read-more {
       overflow: hidden;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical; }
-      .header .logo .site-title a {
+      .body-header .logo .site-title a {
         color: #000000; }
-        .header .logo .site-title a:hover {
+        .body-header .logo .site-title a:hover {
           color: #da0000; }
-      .header .logo .site-title span {
+      .body-header .logo .site-title span {
         font-family: "Lobster", "Berkshire Swash", Arial, "Helvetica Neue", Helvetica, sans-serif;
         text-transform: initial;
         color: #a0a0a0; }
@@ -374,8 +376,7 @@ aside .box-aside {
 
   .navbar-nav > li > a {
     padding-top: 15px;
-    padding-bottom: 15px;
-    line-height: 36px; } }
+    padding-bottom: 15px; } }
 @media only screen and (max-width: 995px) {
   .header .logo .site-title {
     font-size: 2.5em; }
